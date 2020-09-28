@@ -1,0 +1,34 @@
+<h1>Product Details</h1>
+
+<div>
+  <button mat-raised-button (click)="addCustomer()" color="primary"> Add Customer</button>
+  <button mat-raised-button (click)="editCustomer()" color="warn" class="ml-3">Edit Customer</button>
+<br>
+<br>
+  <h4>Customers Details</h4>
+   <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="CustomerId">
+      <mat-header-cell *matHeaderCellDef> Customer Id </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.CustomerId}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="CustomerName">
+      <mat-header-cell *matHeaderCellDef> Customer Name </mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.CustomerName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="CustomerEmail">
+      <mat-header-cell *matHeaderCellDef> Customer Email</mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.CustomerEmail}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Address">
+      <mat-header-cell *matHeaderCellDef> Address</mat-header-cell>
+      <mat-cell *matCellDef="let CustomerDetail"> {{CustomerDetail.Address}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  <span *ngIf="userMessage != ''" style="color: red;font-size: medium;font-weight: bold;"> {{userMessage}}</span>
+</div>

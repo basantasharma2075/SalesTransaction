@@ -1,0 +1,64 @@
+<h1>Product Details</h1>
+
+<div>
+  <button mat-raised-button (click)="addProduct()" color="primary"> Add Product</button>
+  <button mat-raised-button (click)="editProduct()" color="warn" class="ml-3">Edit Product</button>
+<br>
+<br>
+  <h4>Available Products</h4>
+   <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <ng-container matColumnDef="ProductId">
+      <mat-header-cell *matHeaderCellDef> Product Id </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.ProductId}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductName">
+      <mat-header-cell *matHeaderCellDef> Product Name </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.ProductName}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductQuantity">
+      <mat-header-cell *matHeaderCellDef> Product Quantity </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.ProductQuantity}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="RemainingQuantity">
+      <mat-header-cell *matHeaderCellDef> Remaining Quantity </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.RemainingQuantity}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductExpiryDate">
+      <mat-header-cell *matHeaderCellDef> Product Expiry Date</mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> Rs. {{ProductDetail.ProductExpiryDate}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductBarCode">
+      <mat-header-cell *matHeaderCellDef> Product Bar Code </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.ProductBarCode}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductRate">
+      <mat-header-cell *matHeaderCellDef> Product Rate </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.ProductRate}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="StartDate">
+      <mat-header-cell *matHeaderCellDef> Start Date </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.StartDate}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="EndDate">
+      <mat-header-cell *matHeaderCellDef> End Date </mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> {{ProductDetail.EndDate}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ProductOffer">
+      <mat-header-cell *matHeaderCellDef> ProductOffer (NRP)</mat-header-cell>
+      <mat-cell *matCellDef="let ProductDetail"> Rs. {{ProductDetail.ProductOffer}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  <span *ngIf="userMessage != ''" style="color: red;font-size: medium;font-weight: bold;"> {{userMessage}}</span>
+</div>

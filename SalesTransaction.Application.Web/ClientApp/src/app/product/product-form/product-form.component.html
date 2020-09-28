@@ -1,0 +1,58 @@
+<div class="form-container">
+  <mat-toolbar color="primary">{{action}} Product</mat-toolbar>
+  <form class="product-form" [formGroup]="productForm">
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Product Name</mat-label>
+      <input matInput formControlName="ProductName" [(ngModel)]="selectedProduct.ProductName" placeholder="ProductName" required >
+      <mat-error *ngIf="productForm.controls['ProductName'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Product Quantity</mat-label>
+      <input matInput formControlName="ProductQuantity" [(ngModel)]="selectedProduct.ProductQuantity" placeholder="ProductQuantity" required>
+      <mat-error *ngIf="productForm.controls['ProductQuantity'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <!-- //ProductName, ProductQuantity, RemainingQuantity, ProductExpiryDate, 
+      ProductBarCode, ProductRate, StartDate, EndDate, ProductOffer -->
+
+    <mat-form-field appearance="fill">
+      <mat-label>Remaining Quantity</mat-label>
+      <input matInput formControlName="RemainingQuantity" [(ngModel)]="selectedProduct.RemainingQuantity" placeholder="RemainingQuantity" required>
+      <mat-error *ngIf="productForm.controls['RemainingQuantity'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Product Expiry Date</mat-label>
+      <input matInput formControlName="ProductExpiryDate" [(ngModel)]="selectedProduct.ProductExpiryDate" placeholder="mm/dd/yyyy" required>
+      <mat-error *ngIf="productForm.controls['ProductExpiryDate'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Product Bar Code</mat-label>
+      <input matInput formControlName="ProductBarCode" [(ngModel)]="selectedProduct.ProductBarCode" placeholder="ProductBarCode" required>
+      <mat-error *ngIf="productForm.controls['ProductBarCode'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Product Rate</mat-label>
+      <input matInput formControlName="ProductRate" [(ngModel)]="selectedProduct.ProductRate" placeholder="ProductRate" required>
+      <mat-error *ngIf="productForm.controls['ProductRate'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Start Date</mat-label>
+      <input matInput formControlName="StartDate" [(ngModel)]="selectedProduct.StartDate" placeholder="mm/dd/yyyy" required>
+      <mat-error *ngIf="productForm.controls['StartDate'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>End Date</mat-label>
+      <input matInput formControlName="EndDate" [(ngModel)]="selectedProduct.EndDate" placeholder="mm/dd/yyyy" required>
+      <mat-error *ngIf="productForm.controls['EndDate'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Product Offer</mat-label>
+      <input matInput formControlName="ProductOffer" [(ngModel)]="selectedProduct.ProductOffer" placeholder="ProductOffer" required>
+      <mat-error *ngIf="productForm.controls['ProductOffer'].errors?.required">Invalid form value</mat-error>
+    </mat-form-field>
+  </form>
+  <div mat-dialog-actions>
+    <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="productForm.invalid">Save</button>
+    <button mat-raised-button color="warn" (click)="onClose()">Close</button>
+  </div>
+</div>

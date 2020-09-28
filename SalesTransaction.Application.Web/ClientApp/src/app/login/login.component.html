@@ -1,0 +1,27 @@
+
+<form [formGroup]="loginForm"(ngSubmit)="submitForm()">
+
+  <mat-error *ngIf="errorMessage != ''">
+    {{ errorMessage }}
+  </mat-error>
+
+  <label><b>Username : </b></label>
+  <mat-form-field 
+  style="background-color:wheat; margin-right:10px;">
+    
+    <input matInput type="text" formControlName="UserName">
+  </mat-form-field>
+<br><br>
+  <label><b>Password : </b></label>
+  <mat-form-field
+  style="background-color:wheat; margin-right:10px;">
+    
+    <input matInput type="password" formControlName="LoginPassword">
+  </mat-form-field>
+  <br><br>
+  <button mat-raised-button color='primary'>Login</button>
+  
+</form>
+
+
+

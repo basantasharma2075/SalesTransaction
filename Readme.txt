@@ -1,0 +1,1 @@
+Solution is inside SalesTransaction.Application.WebApi folder

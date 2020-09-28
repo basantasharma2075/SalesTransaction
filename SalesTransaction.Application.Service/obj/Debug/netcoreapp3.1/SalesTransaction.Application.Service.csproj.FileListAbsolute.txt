@@ -1,0 +1,116 @@
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csprojAssemblyReference.cache
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfoInputs.cache
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfo.cs
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.exe
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.exe
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.deps.json
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.json
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.dev.json
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CoreCompileInputs.cache
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CopyComplete
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.genruntimeconfig.cache
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.exe
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.exe
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.deps.json
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.json
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.dev.json
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+H:\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csprojAssemblyReference.cache
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfoInputs.cache
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfo.cs
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CoreCompileInputs.cache
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CopyComplete
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.genruntimeconfig.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.exe
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.exe
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.deps.json
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.json
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.dev.json
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csprojAssemblyReference.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfoInputs.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfo.cs
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CoreCompileInputs.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CopyComplete
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.genruntimeconfig.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.exe
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.exe
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.deps.json
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.json
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.runtimeconfig.dev.json
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csprojAssemblyReference.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfoInputs.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.AssemblyInfo.cs
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CoreCompileInputs.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.csproj.CopyComplete
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.pdb
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Service\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Service.genruntimeconfig.cache

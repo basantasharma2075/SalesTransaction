@@ -1,0 +1,41 @@
+<h1>
+  User Details
+</h1>
+<button type="button" mat-raised-button (click)="getAllUser()">Show All User Details</button>
+<br />
+<br />
+
+<table mat-table [dataSource]='dataSource' class="mat-elevation-z8" width="100%">
+
+    <ng-container matColumnDef="FirstName">
+        <th mat-header-cell *matHeaderCellDef> FirstName </th>
+        <td mat-cell *matCellDef="let element"> {{element.FirstName}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="LastName">
+        <th mat-header-cell *matHeaderCellDef> LastName </th>
+        <td mat-cell *matCellDef="let element"> {{element.LastName}} </td>
+    </ng-container>
+  
+   
+
+    <ng-container matColumnDef="PersonId">
+      <th mat-header-cell *matHeaderCellDef> PersonId </th>
+      <td mat-cell *matCellDef="let element"> {{element.PersonId}} </td>
+  </ng-container>
+  
+  <ng-container matColumnDef="UserName">
+      <th mat-header-cell *matHeaderCellDef> Username </th>
+      <td mat-cell *matCellDef="let element"> {{element.UserName}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="LoginPassword">
+      <th mat-header-cell *matHeaderCellDef> Password </th>
+      <td mat-cell *matCellDef="let element"> {{element.LoginPassword}} </td>
+  </ng-container>
+
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>

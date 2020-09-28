@@ -1,0 +1,52 @@
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.deps.json
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.json
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.dev.json
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csprojAssemblyReference.cache
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfoInputs.cache
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfo.cs
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\Aqore\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.genruntimeconfig.cache
+H:\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.deps.json
+H:\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.json
+H:\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.dev.json
+H:\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csprojAssemblyReference.cache
+H:\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfoInputs.cache
+H:\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfo.cs
+H:\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache
+H:\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.genruntimeconfig.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.deps.json
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.json
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.dev.json
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csprojAssemblyReference.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfoInputs.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfo.cs
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\AqoreFinal\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.genruntimeconfig.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.exe
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.deps.json
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.json
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.runtimeconfig.dev.json
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\bin\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csprojAssemblyReference.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfoInputs.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.AssemblyInfo.cs
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.csproj.CoreCompileInputs.cache
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.dll
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.pdb
+H:\Aqore Practice\SalesTransaction\SalesTransaction.Application.Model\obj\Debug\netcoreapp3.1\SalesTransaction.Application.Model.genruntimeconfig.cache
