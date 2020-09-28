@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 //import { FormsModule } from '@angular/forms';
+import { SalesComponent } from './sales/sales.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -33,10 +35,11 @@ const appRoutes: Routes = [
 
 
 @NgModule({
-  declarations: [				
+  declarations: [					
     AppComponent,
     NavMenuComponent,
-    HomeComponent
+    HomeComponent,
+      SalesComponent
    ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

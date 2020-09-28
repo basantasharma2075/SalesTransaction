@@ -3,6 +3,7 @@ import { MvNewProduct } from './../product.model';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import {MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import { Inject } from '@angular/core';
+
 @Component({
   selector: 'app-product-form',
   templateUrl: './product-form.component.html',
@@ -16,10 +17,11 @@ export class ProductFormComponent implements OnInit , AfterViewInit{
 
 
   
-  constructor(private fb: FormBuilder,
-    private dialogRef: MatDialogRef<ProductFormComponent>,
+  constructor(public fb: FormBuilder,
+    public dialogRef: MatDialogRef<ProductFormComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any
     ) { 
+      dialogRef.disableClose = true;
       this.action = data.action;
       this.selectedProduct = data.data || {};
     }

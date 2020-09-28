@@ -22,7 +22,7 @@ export class ProductComponent implements OnInit {
 
   constructor(
     private productService: ProductService,
-    private dialog: MatDialog
+    public dialog: MatDialog
   ) { }
 
   ngOnInit(): void {
@@ -60,13 +60,23 @@ export class ProductComponent implements OnInit {
       return;
     }
 
-    const dialogRef = this.dialog.open(ProductFormComponent, {
-      data: {
-        action,
-        data: this.selectedProduct
-      }
+    // const dialogRef = this.dialog.open(ProductFormComponent, {
+    //   data: {
+    //     action,
+    //     data: this.selectedProduct
+    //   }
  
-     });
+    //  });
+
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.autoFocus = true;
+    dialogConfig.width = '25%';
+    dialogConfig.panelClass = 'mat-form-dialog';
+    dialogConfig.data = { data: this.selectedProduct, action: action };
+    const dialogRef = this.dialog.open(ProductFormComponent, dialogConfig);
+
+
  
 
     dialogRef.afterClosed().subscribe(result => {
@@ -88,11 +98,10 @@ export class ProductComponent implements OnInit {
     });
   }
 
-  onRowClicked(row: any): void{
+ selectRow(e: any, row: MvProduct) {
     this.selectedProduct = { ...row };
     this.selection.toggle(row);
   }
-
 
 
 

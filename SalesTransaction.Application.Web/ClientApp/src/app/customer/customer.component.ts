@@ -87,10 +87,11 @@ export class CustomerComponent implements OnInit {
     });
   }
 
-  onRowClicked(row: any): void{
+  selectRow(e: any, row: MvCustomer) {
     this.selectedCustomer = { ...row };
     this.selection.toggle(row);
   }
+
 
 
 

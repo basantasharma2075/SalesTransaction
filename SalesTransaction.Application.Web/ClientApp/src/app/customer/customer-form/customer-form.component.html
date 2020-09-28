@@ -3,13 +3,13 @@
   <form class="customer-form" [formGroup]="customerForm">
     
     <mat-form-field appearance="fill">
-      <mat-label>CustomerName</mat-label>
+      <label><b>CustomerName</b></label>
       <input matInput formControlName="CustomerName" [(ngModel)]="selectedCustomer.CustomerName" placeholder="CustomerName" required >
       <mat-error *ngIf="customerForm.controls['CustomerName'].errors?.required">Invalid form value</mat-error>
     </mat-form-field>
 
     <mat-form-field appearance="fill">
-      <mat-label>CustomerEmail</mat-label>
+      <label><b>CustomerEmail</b></label>
       <input matInput formControlName="CustomerEmail" [(ngModel)]="selectedCustomer.CustomerEmail" placeholder="CustomerEmail" required>
       <mat-error *ngIf="customerForm.controls['CustomerEmail'].errors?.required">Invalid form value</mat-error>
     </mat-form-field>
@@ -18,14 +18,14 @@
     Address: number; -->
 
     <mat-form-field appearance="fill">
-      <mat-label>Address</mat-label>
+      <label><b>Address</b></label>
       <input matInput formControlName="Address" [(ngModel)]="selectedCustomer.Address" placeholder="Address" required>
       <mat-error *ngIf="customerForm.controls['Address'].errors?.required">Invalid form value</mat-error>
     </mat-form-field>
 
   </form>
   <div mat-dialog-actions>
-    <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="productForm.invalid">Save</button>
+    <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="customerForm.invalid">Save</button>
     <button mat-raised-button color="warn" (click)="onClose()">Close</button>
   </div>
 </div>
