@@ -25,15 +25,15 @@ constructor(private userDetailService: UserDetailService) { }
 
   ngOnInit(): void {
 
-    this.displayedColumns = ['PersonId', 'FirstName', 'LastName', 'UserName', 'LoginPassword'];
+    this.displayedColumns = ['LoginId','PersonId', 'FirstName', 'LastName', 'UserName', 'LoginPassword'];
     this.getUserDetail();
   }
 
  getUserDetail() {
 
     // tslint:disable-next-line: radix
-    const PersonId = parseInt(localStorage.getItem('PersonId'));
-    this.userDetailService.getUser(PersonId).subscribe((data: any) => {
+    const LoginId = parseInt(localStorage.getItem('LoginId'));
+    this.userDetailService.getUser(LoginId).subscribe((data: any) => {
       if (data) {
         this.dataSource = [data];
         console.log(Response);
@@ -45,7 +45,7 @@ constructor(private userDetailService: UserDetailService) { }
 
   }
 
-  getAllUser() {
+  getAllUsers() {
     this.userDetailService.getAllUserDetail().subscribe((data: any) => {
 
       if (data) {

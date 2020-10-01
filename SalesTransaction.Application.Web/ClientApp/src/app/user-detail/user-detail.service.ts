@@ -14,21 +14,8 @@ export class UserDetailService {
 
   }
 
-  getLogin(json): Observable<any> {
-    return this.api.post('/account/login', json);
-  }
-
-//   getUser(id: number) {
-//     return this.api.get('account/userdetail', JSON.stringify({ PersonId:id}));
-// }
-
-// getUser(json: any): Observable<any> {
-
-//   return this.api.get('account/userdetail',  new HttpParams().set('json', JSON.stringify(json)));
-// }
-
-getUser(PersonId: number) {
-  return this.api.get('account/userdetail', JSON.stringify({ PersonId: PersonId }));
+  getUser(LoginId: number) {
+  return this.api.get('account/userdetail', JSON.stringify({ LoginId: LoginId }));
 }
 
 

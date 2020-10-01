@@ -76,23 +76,25 @@ namespace SalesTransaction.Application.Service.Account
         {
             using (var con = _dah.GetConnection())
             {
-                var cmd = con.CreateCommand();
-                //cmd.CommandType = CommandType.StoredProcedure;
-                // cmd.CommandText = "SpPersonSel";
-                //cmd.Parameters.Add("@Json", SqlDbType.NChar).Value = json;
-
+                /*var cmd = con.CreateCommand();
                 cmd.CommandType = CommandType.Text;
                 dynamic jsonNew = JsonConvert.DeserializeObject(json);
-                /*cmd.CommandText = "SELECT (SELECT p.PersonId,p.FirstName,p.LastName FROM [dbo].[Person] AS p " +
-                    "INNER JOIN dbo.[Login] AS u ON u.PersonId = p.PersonId"
-                    + "WHERE p.PersonId = " + Convert.ToString(jsonNew.personId)
-                    + " FOR JSON PATH, WITHOUT_ARRAY_WRAPPER ) AS Json";
-                cmd.CommandTimeout = _comdTimeout;*/
+                
+
 
                 cmd.CommandText = "SELECT (SELECT p.PersonId,u.UserName,u.LoginPassword,p.FirstName,p.LastName FROM dbo.Person AS p" +
                     " INNER JOIN dbo.[Login] AS u ON u.PersonId = p.PersonId" +
                     " WHERE p.PersonId = " + Convert.ToString(jsonNew.PersonId)
                     + " FOR JSON PATH, WITHOUT_ARRAY_WRAPPER ) AS Json";
+                cmd.CommandTimeout = _comdTimeout;
+*/
+
+
+                var cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                dynamic jsonNew = JsonConvert.DeserializeObject(json);
+                cmd.CommandText = "SpUserDetailSel";
+                cmd.Parameters.AddWithValue("@LoginId", Convert.ToString(jsonNew.LoginId));
                 cmd.CommandTimeout = _comdTimeout;
 
 

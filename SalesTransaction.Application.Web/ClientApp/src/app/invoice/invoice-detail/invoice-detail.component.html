@@ -1,0 +1,79 @@
+<h1 mat-dialog-title>Invoice</h1>
+
+<div mat-dialog-content>
+    <mat-card style="margin:5px;">
+        <mat-card-header>
+          <mat-card-subtitle>Invoice Details</mat-card-subtitle>
+        </mat-card-header>
+       
+        <mat-card-content>
+          <table class="table">
+            <thead>
+              <tr>
+                  <th>SalesId</th>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Rate</th>
+                  <th>Total</th>
+              </tr>
+            </thead>
+                  <tbody>
+              <tr *ngFor="let sales of invoiceDetail">
+                <td>{{sales.salesTransactionId}}</td>
+                <td>{{sales.productName}}</td>
+                <td>{{sales.quantity}}</td>
+                <td>${{sales.rate}}</td>
+                <td>${{sales.totalAmount}}</td>
+              </tr>
+            </tbody>
+
+            <!-- <tfoot>
+              <tr>
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>${{invoice.subtotal}}</td>
+              </tr>
+            </tfoot> -->
+
+          </table>
+        </mat-card-content>
+        
+      </mat-card>
+
+      <mat-card style="margin:5px;">
+        <mat-card-header>
+          <mat-card-subtitle>Summary</mat-card-subtitle>
+        </mat-card-header>
+    
+        <mat-card-content>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>InvoiceId</th>
+                <th>Customer</th>
+                <th>Sub Total</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <td>{{invoice.invoiceId}}</td>
+                <td>{{invoice.customerName}}</td>
+                <td>{{invoice.subTotal}}%</td>
+                <td>${{invoice.Total}}</td>
+              </tr>
+            </tbody>
+            
+          </table>
+        </mat-card-content>
+      </mat-card>
+   
+</div>
+
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelClick()" color="warn">Cancel</button>
+  <button (click)="printInvoice()" mat-raised-button color="primary">Print</button>
+</div>
